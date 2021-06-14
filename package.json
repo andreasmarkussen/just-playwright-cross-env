@@ -1,0 +1,19 @@
+{
+  "name": "JustPlaywrightTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env FOO=BAR X='Y' ts-node dumpVars.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@naturalcycles/junit-lib": "^1.1.0",
+    "@playwright/test": "^1.12.2",
+    "cross-env": "^7.0.3",
+    "playwright": "^1.12.2",
+    "ts-node": "^10.0.0"
+  }
+}
